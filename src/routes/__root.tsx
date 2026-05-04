@@ -29,17 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "E-Z Sell Realty — Premier Queens NY Real Estate Since 2002" },
-      {
-        name: "description",
-        content:
-          "E-Z Sell Realty is Queens, NY's trusted real estate brokerage since 2002 — Forest Hills, Rego Park & beyond.",
-      },
-      { name: "author", content: "E-Z Sell Realty" },
-      { property: "og:title", content: "E-Z Sell Realty" },
-      { property: "og:description", content: "Premier Queens NY Real Estate Since 2002" },
+      { title: "Lovable App" },
+      { name: "description", content: "Queens Home Connect is a real estate agency in Queens, NY, helping clients buy, sell, and rent properties." },
+      { name: "author", content: "Lovable" },
+      { property: "og:title", content: "Lovable App" },
+      { property: "og:description", content: "Queens Home Connect is a real estate agency in Queens, NY, helping clients buy, sell, and rent properties." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:description", content: "Queens Home Connect is a real estate agency in Queens, NY, helping clients buy, sell, and rent properties." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/36a68ae7-c3a1-461a-bd5e-afbb74b25d09/id-preview-b21007c0--f47f8b6b-3225-4b57-81aa-38ee2cc38073.lovable.app-1777930833127.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/36a68ae7-c3a1-461a-bd5e-afbb74b25d09/id-preview-b21007c0--f47f8b6b-3225-4b57-81aa-38ee2cc38073.lovable.app-1777930833127.png" },
     ],
     links: [
       {
