@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import fairHousingLogo from "@/assets/fair-housing.png";
 
 export function SiteFooter() {
   return (
@@ -62,9 +63,25 @@ export function SiteFooter() {
       <div className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-6 text-[10px] text-muted-foreground uppercase tracking-[0.2em] flex flex-col md:flex-row justify-between gap-4">
           <span>© 2002–{new Date().getFullYear()} E-Z Sell Realty. All rights reserved.</span>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-6">
             <Link to="/contact">Contact</Link>
-            <span>Fair Housing</span>
+            <a
+              href="https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 hover:text-gold transition-colors"
+              aria-label="Fair Housing Act information"
+            >
+              <img
+                src={fairHousingLogo}
+                alt="Equal Housing Opportunity"
+                width={20}
+                height={20}
+                loading="lazy"
+                className="size-5"
+              />
+              <span>Fair Housing</span>
+            </a>
             <span>Equal Opportunity</span>
           </div>
         </div>
